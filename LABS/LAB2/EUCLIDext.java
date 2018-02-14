@@ -1,3 +1,13 @@
+/*
+file:EUCLIDext.java
+author:Aishwarya Pagalla
+assignment: Lab 2
+course:MSCS630
+assignment due:02/07/2018
+version:1.0
+*/
+
+
 package gcd;
 
 import java.util.Scanner;
@@ -8,6 +18,7 @@ public class EUCLIDext {
 	 public void root(long a, long b)
 	    {
 	        long x = 0, y = 1, x0 = 1, y0 = 0, temp;
+		 //for b not equals to zero calculate quotient and remainder
 	        while (b != 0)
 	            {
 	                long q = a / b, r = a % b;
@@ -27,10 +38,12 @@ public class EUCLIDext {
 	public static void main(String args[]){
 		Scanner Scan = new Scanner(System.in);
 		System.out.println("enter values of a and b");
+		//prompts user to enter two numbers
 		long a = Scan.nextLong();
 		long b = Scan.nextLong();
 		EUCLIDext f = new EUCLIDext();
 		f.root(a,b);
+		//condition for gcd(a,b) :: a>=b
 		if (a>=b){
 		long g = gcd(a,b);	
 		}
@@ -43,7 +56,7 @@ public class EUCLIDext {
 		}
          
 	}
-		
+	// Method calculates GCD for b == 0	
 	private static long gcd(long a, long b ){
 		
 		//for one number equals zero:base case
