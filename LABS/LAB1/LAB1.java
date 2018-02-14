@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ To change this license header, choose License Headers in Project Properties.
+file:EUCLIDext.java
+author:Aishwarya Pagalla
+assignment: Lab 2
+course:MSCS630
+assignment due:02/07/2018
+version:1.0
  */
 package javaapplication4;
 
