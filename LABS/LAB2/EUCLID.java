@@ -1,3 +1,11 @@
+/*
+file:EUCLID.java
+author:Aishwarya Pagalla
+assignment: Lab 2
+course:MSCS630
+assignment due:02/07/2018
+version:1.0
+*/
 package gcd;
 
 import java.util.Scanner;
@@ -23,7 +31,7 @@ public class EUCLID {
 		}
 	}
 		
-		private static long gcd(long a, long b) { 
+	private static long gcd(long a, long b) { 
 			//base condition - if b = 0
 			if(b == 0){
 			return a; }
@@ -32,5 +40,4 @@ public class EUCLID {
 		
 	}
 	
-
 }
