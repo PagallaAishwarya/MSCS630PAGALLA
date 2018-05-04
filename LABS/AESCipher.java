@@ -6,7 +6,6 @@ course:MSCS630
 assignment :05/04/2018
 version:1.0 
 */
-package LAB5;
 
 public class AESCipher {
 
