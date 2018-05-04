@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package LAB5;
 
 /**
- *
- * @author Anurag
- */
+file:AESCipher.java
+author:Aishwarya Pagalla
+assignment: Lab 5
+course:MSCS630
+assignment :05/04/2018
+version:1.0 
+*/
 import java.io.BufferedInputStream;
 import java.util.Scanner;
 
